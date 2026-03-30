@@ -1,5 +1,6 @@
 const posts = [
     {
+        id: 1,
         titolo: 'Ciambellone',
         contenuto: 'Ricetta',
         Img: 'images/ciambellone.jpeg',
@@ -9,6 +10,7 @@ const posts = [
         ]
     },
     {
+        id: 2,
         titolo: 'Cracker barbabietola',
         contenuto: 'Ricetta',
         Img: 'images/cracker_barbabietola.jpeg',
@@ -18,6 +20,7 @@ const posts = [
         ]
     },
     {
+        id: 3,
         titolo: 'Pane fritto dolce',
         contenuto: 'Ricetta',
         Img: 'images/pane_fritto_dolce.jpeg',
@@ -27,6 +30,7 @@ const posts = [
         ]
     },
     {
+        id: 4,
         titolo: 'Pasta barbabietola',
         contenuto: 'Ricetta',
         Img: 'images/pasta_barbabietola.jpeg',
@@ -36,6 +40,7 @@ const posts = [
         ]
     },
     {
+        id: 5,
         titolo: 'Torta paesana',
         contenuto: 'Ricetta',
         Img: 'images/torta_paesana.jpeg',

@@ -11,7 +11,7 @@ router.get('/', function (req, res) {
 
 // show
 router.get('/:id', function (req, res) {
-    res.send('Dettagli del posts ' + req.params.id);
+    res.json(posts.filter((post) => post.id == req.params.id));
 });
 
 // store
